@@ -5,6 +5,7 @@ import { transparentize } from "polished"
 import { Nav } from "./nav"
 import { ThemeContext } from "./theme"
 import { Link } from "gatsby"
+import logo from '../../content/images/logo.svg'
 
 export const Header = styled(({ siteTitle, ...styleProps }) => {
   return (
@@ -13,9 +14,18 @@ export const Header = styled(({ siteTitle, ...styleProps }) => {
         <header {...styleProps}>
           <HeaderWrapper>
             <SiteTitle>
-              <SiteLink to="/">
-                {siteTitle}
-              </SiteLink>
+              <Link
+                to="/"
+                style={{
+                  color: `white`,
+                  textDecoration: `none`,
+                  margin: 0,
+                  height: `100%`,
+                  display: `block`
+                }}
+              >
+              <img src={logo} style={{margin: 0, display: `block`}}/>
+              </Link>
             </SiteTitle>
             <Nav toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
           </HeaderWrapper>
@@ -106,4 +116,8 @@ export const HeaderWrapper = styled(Wrapper)`
   justify-content: space-between;
   align-items: center;
   height: 100%;
-`
+  @media (min-width: ${props => props.theme.breakpoints.small}) {
+    --wrapper-padding-x: 0;
+     padding-right: 2rem;
+  }
+ `

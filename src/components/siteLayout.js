@@ -32,7 +32,7 @@ const MasterLayout = ({ children }) => {
         <Site>
           <Header siteTitle={data.site.title} />
           {children}
-          <Footer />
+          <Footer siteTitle={data.site.title}/>
         </Site>
       </Theme>
     </>

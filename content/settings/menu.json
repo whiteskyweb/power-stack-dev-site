@@ -5,23 +5,19 @@
       "link": "/"
     },
     {
-      "label": "About",
+      "label": "Features",
       "link": "/about"
     },
     {
-      "label": "Projects",
-      "link": "projects"
+      "label": "Pricing",
+      "link": "/pricing"
     },
     {
       "label": "Blog",
       "link": "/blog"
     },
     {
-      "label": "CV",
-      "link": "/cv"
-    },
-    {
-      "label": "Contact",
+      "label": "Get in touch",
       "link": "/contact"
     }
   ],

@@ -63,7 +63,7 @@ module.exports = {
         background_color: theme.color.primary,
         theme_color: theme.color.primary,
         display: `minimal-ui`,
-        icon: `content/images/IMG_0017.jpg`,
+        icon: `content/images/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
@@ -112,7 +112,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Source Serif Pro:400,700"],
+          families: ["Muli:400,700"],
         },
       },
     },

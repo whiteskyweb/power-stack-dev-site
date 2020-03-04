@@ -3,14 +3,11 @@ import { Wrapper } from "./style"
 import styled from "styled-components"
 import { transparentize } from "polished"
 
-export const Footer = styled(({ ...styleProps }) => {
+export const Footer = styled(({ siteTitle,...styleProps }) => {
   return (
     <footer {...styleProps}>
       <Wrapper>
-        © {new Date().getFullYear()} Xavier Mirabelli-Montan – Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a> and{" "}
-        <a href="https://www.tinacms.org">Tina</a>
+        © {new Date().getFullYear()} {siteTitle}
       </Wrapper>
     </footer>
   )

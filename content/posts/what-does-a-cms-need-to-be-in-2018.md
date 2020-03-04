@@ -1,7 +1,7 @@
 ---
 title: What does a CMS need to be in 2018
 path: /blog/what-does-a-cms-need-to-be-in-2018
-date: '2018-02-02T00:00:00.000Z'
+date: '2020-03-04T00:00:00.000Z'
 type: post
 authors:
   - xavier-mirabelli-montan
