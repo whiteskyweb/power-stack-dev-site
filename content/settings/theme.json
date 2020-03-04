@@ -25,7 +25,7 @@
     "image": "../images/Hero.png",
     "large": false,
     "overlay": false,
-    "overlap": "0",
+    "overlap": "-1",
     "parallax": false
   },
   "typography": {
