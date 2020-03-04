@@ -5,5 +5,5 @@
     "fileRelativePath": "/content/settings/site.json"
   },
   "title": "Power Stack",
-  "logo": "../images/Hero.png"
+  "logo": false
 }
