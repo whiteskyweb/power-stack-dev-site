@@ -1,0 +1,11 @@
+{
+  "path": "/blog",
+  "title": "Blog",
+  "pageType": "list",
+  "listType": "post",
+  "hero": {
+    "image": "../images/Hero.png",
+    "large": true,
+    "overlay": false
+  }
+}
