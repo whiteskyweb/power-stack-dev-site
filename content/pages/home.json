@@ -8,23 +8,17 @@
   ],
   "hero": {
     "headline": "Launch quicker, grow faster!",
-    "textline": "A Senior Full-stack Developer based in Brighton, UK",
     "ctas": [
       {
-        "label": "Read my blog",
+        "label": "Tell me more",
         "link": "/blog",
         "primary": true,
         "arrow": false
-      },
-      {
-        "label": "Get in touch",
-        "link": "/contact",
-        "arrow": false,
-        "primary": true
       }
     ],
     "image": "../images/",
-    "large": true
+    "large": true,
+    "textline": "Bringing website building into the modern age"
   },
   "displayTitle": false,
   "title": "Home"
