@@ -7,7 +7,7 @@
     }
   ],
   "hero": {
-    "headline": "Hi 👋 I'm Xavier",
+    "headline": "Launch quicker, grow faster!",
     "textline": "A Senior Full-stack Developer based in Brighton, UK",
     "ctas": [
       {
@@ -23,7 +23,7 @@
         "primary": true
       }
     ],
-    "image": "../images/Hero.png",
+    "image": "../images/",
     "large": true
   },
   "displayTitle": false,
