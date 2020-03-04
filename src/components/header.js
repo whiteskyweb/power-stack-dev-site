@@ -5,7 +5,7 @@ import { transparentize } from "polished"
 import { Nav } from "./nav"
 import { ThemeContext } from "./theme"
 import { Link } from "gatsby"
-import logo from '../../content/images/logo.svg'
+import logo from './../../content/images/logo.svg'
 
 export const Header = styled(({ siteTitle, ...styleProps }) => {
   return (
