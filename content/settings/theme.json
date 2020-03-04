@@ -1,9 +1,9 @@
 {
   "color": {
-    "black": "#4A4A4A",
+    "black": "#393768",
     "white": "#FFFFFF",
-    "primary": "#DA4453",
-    "secondary": "#7D3569"
+    "primary": "#FFC800",
+    "secondary": "#7E7CAE"
   },
   "easing": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
   "breakpoints": {
@@ -17,7 +17,7 @@
   },
   "header": {
     "overline": false,
-    "transparent": true,
+    "transparent": false,
     "height": "3.25rem",
     "underline": true
   },
