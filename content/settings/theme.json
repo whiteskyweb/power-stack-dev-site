@@ -23,16 +23,16 @@
   },
   "hero": {
     "image": "../images/Hero.png",
-    "large": false,
-    "overlay": false,
-    "overlap": "0",
-    "parallax": false
+    "large": true,
+    "overlay": true,
+    "overlap": "2em",
+    "parallax": true
   },
   "typography": {
     "uppercaseH2": false
   },
   "menu": {
-    "style": ""
+    "style": "pill"
   },
   "__gatsby_resolved": {
     "fileRelativePath": "/content/settings/theme.json"
