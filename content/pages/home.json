@@ -14,6 +14,12 @@
         "link": "/blog",
         "primary": true,
         "arrow": false
+      },
+      {
+        "label": "View on Github",
+        "arrow": true,
+        "primary": true,
+        "link": "https://github.com/whiteskyweb/power-stack"
       }
     ],
     "image": "../images/",
