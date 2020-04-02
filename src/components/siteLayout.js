@@ -27,6 +27,7 @@ const MasterLayout = ({ children }) => {
     <>
       <Helmet>
         <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js"></script>
+        <script async defer data-domain="powerstack.dev" src="https://plausible.io/js/plausible.js"></script>
       </Helmet>
       <Theme>
         <Site>
